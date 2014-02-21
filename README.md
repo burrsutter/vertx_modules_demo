@@ -33,6 +33,8 @@ will create yet another "mods" directory underneath  io.vertx~example-web-app~1.
 So runmod puts the deps as a peer to your current directory
 but pulldeps puts the deps in a sub-directory
 
+vertx pulldeps io.vertx~example-web-app~1.0
+
 then
 
 vertx fatjar io.vertx~example-web-app~1.0
